@@ -1,0 +1,29 @@
+
+
+
+
+.ui{
+    margin-top: 150px;
+    margin-left: 450px;
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+.images{
+    height: 250px;
+    width: 300px;
+}
+.btn-parent{
+    background-color: rgb(149, 150, 121);
+    height: 248px;
+    width: 200px;
+    border: 2px solid ;
+    text-align: center;
+}
+.btn{
+    margin-top: 100px;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 120px;
+}
