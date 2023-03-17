@@ -1,5 +1,5 @@
 
-
+import './Signin.css'
 
 export default function Signin({handleSignUp}){
     return(
@@ -12,7 +12,7 @@ export default function Signin({handleSignUp}){
             <input />
             <br/>
             <button>Login</button>
-            <p>Don't have any account<button onClick={handleSignUp}>Sign up</button></p>
+            <p>Don't have any account<button className="signup-btn" onClick={handleSignUp}>Sign up</button></p>
         </div>
     )
 }
