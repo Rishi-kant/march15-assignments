@@ -8,9 +8,13 @@ export default function MainFile(){
     function handleSignUp(){
         SetLogin(false)
     }
+    function handleSignin(){
+        SetLogin(true)
+    }
     return(
         <div>
-          {login ?(<Signin  handleSignUp={handleSignUp}/>):(<SignUp/>)}
+          {login ?(<Signin  handleSignUp={handleSignUp}/>):
+          (<SignUp  handleSignin={handleSignin}/>)}
             
             
         </div>
